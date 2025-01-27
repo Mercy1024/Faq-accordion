@@ -29,10 +29,10 @@ export default function App() {
   return (
     <div className="container">
       <div className="mobile_background">
-        <img src="../public/assets/images/background-pattern-mobile.svg" />
+        <img src="../assets/images/background-pattern-mobile.svg" />
       </div>
       <div className="desktop_background">
-        <img src="../public/assets/images/background-pattern-desktop.svg" />
+        <img src="../assets/images/background-pattern-desktop.svg" />
       </div>
 
       <Main />
@@ -43,7 +43,7 @@ export default function App() {
 function Header() {
   return (
     <header>
-      <img src="../public/assets/images/icon-star.svg" />
+      <img src="../assets/images/icon-star.svg" />
       <h1>FAQs</h1>
     </header>
   );
